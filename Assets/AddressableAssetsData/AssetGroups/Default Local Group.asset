@@ -16,7 +16,85 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 082c3f4d319c8c34b89992b943c4efcf
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 010d618dcd361480aae6e3988477f0c0
+    m_Address: Assets/Content/Attachments/CabinBlack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09e5fa06899584a6d89069a7d7f9285c
+    m_Address: Assets/Content/Attachments/DitchBucket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1be2428b2cf744cf8a4768516543829c
+    m_Address: Assets/Content/Attachments/Tracks.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c40d62ea2f954eea9deae1c886fa78e
+    m_Address: Assets/Content/Attachments/CabinGreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e85782f2cc424999a55111b7679d100
+    m_Address: Assets/Content/Attachments/Wheels.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4953939a9c3304756b88b9c5714da726
+    m_Address: Assets/Content/Attachments/BoomGreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b5bbd4a590d44624987c6d16442899f
+    m_Address: Assets/Content/Attachments/BoomYellow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7d09b8e4dbaf44879a912857d503a9b
+    m_Address: Assets/Content/Attachments/StickGreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c92f1bc022b924a0eaeba26f4b291724
+    m_Address: Assets/Content/Attachments/StickYellow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6e78c69d6b9049e787e804ebe357939
+    m_Address: Assets/Content/Attachments/StandardBucket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7b1dd5bbd2c944189267889975e8e48
+    m_Address: Assets/Content/Attachments/BoomBlack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8d5eb1e8402d45babdfd8d08d789e06
+    m_Address: Assets/Content/Attachments/CabinYellow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea250c03ab4e84cc9bfc0e1985d7683c
+    m_Address: Assets/Content/Attachments/StickBlack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Attachment
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: daec3782856c64944bdfcde0b6aa72b0, type: 2}
   m_SchemaSet:

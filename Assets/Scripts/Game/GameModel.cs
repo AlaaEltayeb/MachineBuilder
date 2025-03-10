@@ -1,4 +1,6 @@
 using Assets.Scripts.Attachment;
+using Assets.Scripts.Command;
+using Assets.Scripts.Loading;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,12 +14,15 @@ namespace Assets.Scripts.Game
     public sealed class GameModel : IGameModel
     {
         private const string AttachmentLabel = "Attachment";
-        public Dictionary<AttachmentType, GameObject> Attachments { get; private set; }
+        public Dictionary<AttachmentType, GameObject> Attachments { get; private set; } = new();
 
         public AttachmentType SelectedAttachmentType { get; private set; }
 
-        public GameModel()
+        private ICommandDispatcher _commandDispatcher;
+
+        public GameModel(ICommandDispatcher commandDispatcher)
         {
+            _commandDispatcher = commandDispatcher;
             LoadAttachmentsGameObjects();
         }
 
@@ -52,6 +57,7 @@ namespace Assets.Scripts.Game
                 Attachments.Add(attachmentType, attachment);
             }
 
+            _commandDispatcher.Execute(new StopLoadingCommand());
             Addressables.Release(handle);
         }
 
