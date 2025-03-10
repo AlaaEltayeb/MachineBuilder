@@ -4,7 +4,7 @@ namespace Assets.Scripts.Game
 {
     public sealed class GameManager : IGameManager
     {
-        private IGameModel _gameModel;
+        private readonly IGameModel _gameModel;
 
         public GameManager(IGameModel gameModel)
         {

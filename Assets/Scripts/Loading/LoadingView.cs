@@ -3,7 +3,7 @@ using VContainer;
 
 namespace Assets.Scripts.Loading
 {
-    public class LoadingView : MonoBehaviour
+    public sealed class LoadingView : MonoBehaviour
     {
         [SerializeField]
         private Transform _loading;

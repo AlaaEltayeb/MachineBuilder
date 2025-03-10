@@ -7,7 +7,7 @@ using VContainer.Unity;
 
 namespace Assets.Scripts
 {
-    public class GameLifetimeScope : LifetimeScope
+    public sealed class GameLifetimeScope : LifetimeScope
     {
         protected override void Awake()
         {
